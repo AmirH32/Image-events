@@ -1,0 +1,17 @@
+body{
+    font-family: 'Arial';
+    text-align: center;
+}
+
+ul{
+    width: 100px;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+}
+
+.hide{
+    display: none;
+}
