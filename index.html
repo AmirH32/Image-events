@@ -7,15 +7,15 @@
     <body>
         <h1>Javascipt Events</h1>
         <h4>Pictures</h4>
-        <ul>
-            <li><a data-img="hasbulla-pic" id="hasbulla" href="#">hasbulla</a></li>
-            <li><a data-img="usyk-pic" id="usyk" href="#">usyk</a></li>
-            <li><a data-img="tyson-pic" id="tyson" href="#">tyson</a></li>
-        </ul>
-        
-        <img class="hide" id="hasbulla-pic" src="https://imgs.search.brave.com/B7FZIMpEPqNHCfl4Dcz4D7AsGv33HLnXbEP0-yWR0MA/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly9tYW5v/Zm1hbnkuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIxLzA2/L0hhc2J1bGxhLU1h/Z29tZWRvdi00LTEy/MDB4ODAwLmpwZw">
-        <img class="hide" id="usyk-pic" src="https://imgs.search.brave.com/0L0kveTaLlHC56e83IZr5NYrpJArbxBmasVuC4R7rGQ/rs:fit:960:645:1/g:ce/aHR0cHM6Ly90YWxr/c3BvcnQuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy9zaXRlcy81/LzIwMTkvMTAvTklO/VENIREJQSUNUMDAw/NTI5MDA1NDY0Lmpw/Zz9zdHJpcD1hbGwm/dz05NjAmcXVhbGl0/eT0xMDA">
-        <img class="hide" id="tyson-pic" src="https://imgs.search.brave.com/kVcNjQYTiWsodNB1gjeU3gv-t2H2NVuGSp3KE2OP3JU/rs:fit:1200:822:1/g:ce/aHR0cHM6Ly90b3du/c3F1YXJlLm1lZGlh/L3NpdGUvNzIyL2Zp/bGVzLzIwMjAvMDUv/R2V0dHlJbWFnZXMt/NDUzNDM0MTYyLmpw/Zz93PTEyMDAmaD0w/JnpjPTEmcz0wJmE9/dCZxPTg5">
+        <div class="imgs">
+            <img class="img hidden" id="hasbulla" src="https://imgs.search.brave.com/B7FZIMpEPqNHCfl4Dcz4D7AsGv33HLnXbEP0-yWR0MA/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly9tYW5v/Zm1hbnkuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIxLzA2/L0hhc2J1bGxhLU1h/Z29tZWRvdi00LTEy/MDB4ODAwLmpwZw">
+            <img class="img hidden" id="usyk" src="https://imgs.search.brave.com/0L0kveTaLlHC56e83IZr5NYrpJArbxBmasVuC4R7rGQ/rs:fit:960:645:1/g:ce/aHR0cHM6Ly90YWxr/c3BvcnQuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy9zaXRlcy81/LzIwMTkvMTAvTklO/VENIREJQSUNUMDAw/NTI5MDA1NDY0Lmpw/Zz9zdHJpcD1hbGwm/dz05NjAmcXVhbGl0/eT0xMDA">
+            <img class="img hidden" id="tyson" src="https://imgs.search.brave.com/kVcNjQYTiWsodNB1gjeU3gv-t2H2NVuGSp3KE2OP3JU/rs:fit:1200:822:1/g:ce/aHR0cHM6Ly90b3du/c3F1YXJlLm1lZGlh/L3NpdGUvNzIyL2Zp/bGVzLzIwMjAvMDUv/R2V0dHlJbWFnZXMt/NDUzNDM0MTYyLmpw/Zz93PTEyMDAmaD0w/JnpjPTEmcz0wJmE9/dCZxPTg5">
+        </div>
+
+        <button class="btn" onClick="imageHandler(hasbulla)">hasbulla</button>
+        <button class="btn" onClick="imageHandler(usyk)">usyk</button>
+        <button class="btn" onClick="imageHandler(tyson)">tyson</button>
         <script src="eventsimg.js"></script>
     </body>
 </html>
