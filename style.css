@@ -3,15 +3,17 @@ body{
     text-align: center;
 }
 
-ul{
-    width: 100px;
+div{
     margin: auto;
+    width: 200px;
+    height: 150px;
 }
 
 img{
     width: 200px;
+    height: 135px;
 }
 
-.hide{
+.hidden{
     display: none;
 }
